@@ -1,5 +1,10 @@
 @import url(./root.css);
 
+@font-face {
+    font-family:normalidad-font;
+    src: url(/assets/font/NormalidadCompact-Medium.ttf);
+}
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -50,6 +55,10 @@
     background-size: cover;
     min-height: 720px;
     background-position: center;
+}
+
+.mt-95{
+    margin-top: 95px !important;
 }
 
 .title{

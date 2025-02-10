@@ -5,7 +5,7 @@
     --fs-xl: 36px;
     --fs-2xl: 96px;
 
-    --font-primary: "Helvetica";
+    --normalidad-font: "normalidad-font";
 
     --lh-20: 20.68px;
     --lh-22: 22.98px;
@@ -33,8 +33,8 @@
 }
 
 
-.font-primary {
-    font-family: var(--font-primary) !important;
+.normalidad-font {
+    font-family: var(--normalidad-font) !important;
 }
 
 .fs-small {
