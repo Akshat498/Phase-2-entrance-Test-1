@@ -25,7 +25,7 @@
     --fc-deep-grey: #1F272E;
     --fc-light-green: #D4FF27;
     --fc-prussian: #003459;
-    --fc-dark-color: #0C0F26;
+    --fc-dark-color: #0D1012;
     --fc-grey: #4D545E;
     --fc-sky-blue: #00A8E8;
     --fc-dark-sky: #007EA7;
@@ -138,6 +138,10 @@
 
 .fc-dark-color {
     color: var(--fc-dark-color);
+}
+
+.bg-dark-color {
+    background-color: var(--fc-dark-color);
 }
 
 .bg-crisp-blue {
