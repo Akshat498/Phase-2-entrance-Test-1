@@ -59,7 +59,6 @@
 .hero-sec-buton{
     padding: 16px 24px 16px 24px;
     border-radius: 12px;
-    margin-left: 24px;
 }
 
 .ml-24{
@@ -99,6 +98,31 @@
 .pt-47{
     padding-top: 47px;
 }
+
+.grind-bg-img{
+    background-image: url(/assets/images/png/grind-sec-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.climb-the-top{
+    background-image: url(/assets/images/png/Climb\ The\ Top-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 468px;
+    margin: 96px 48px 0px 48px;
+    border-radius: 16px;
+}
+
+.monster-buton{
+    padding: 8px 12px 8px 12px;
+    border-radius: 72px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
 
 
 @media (max-width:992px) {

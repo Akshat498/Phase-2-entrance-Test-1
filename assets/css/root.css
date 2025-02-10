@@ -19,7 +19,7 @@
     --fc-light-white: #545E6C;
     --fc-white: #FFFFFF;
     --fc-red: #FF0000;
-    --fc-light-brown: #DFBCA6;
+    --fc-light-black: #151A1F;
     --fc-pink: #FFEBEB;
     --fc-brown: #A68272;
     --fc-deep-grey: #1F272E;
@@ -128,8 +128,12 @@
     color: var(--fc-prussian);
 }
 
-.fc-light-brown {
-    color: var(--fc-light-brown);
+.fc-light-black {
+    color: var(--fc-light-black);
+}
+
+.bg-light-black {
+    background-color: var(--bg-light-black);
 }
 
 .bg-light-brown {
