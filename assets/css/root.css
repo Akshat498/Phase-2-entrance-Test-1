@@ -1,10 +1,9 @@
 :root {
-    --fs-sm: 16px;
-    --fs-md: 18px;
-    --fs-lg: 20px;
-    --fs-xl: 24px;
-    --fs-2xl: 64px;
-    --fs-3xl: 75px;
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-lg: 16px;
+    --fs-xl: 36px;
+    --fs-2xl: 96px;
 
     --font-primary: "Helvetica";
 
@@ -17,17 +16,17 @@
 
 
 
-    --fc-light-white: #EAF9FF;
+    --fc-light-white: #545E6C;
     --fc-white: #FFFFFF;
     --fc-red: #FF0000;
     --fc-light-brown: #DFBCA6;
     --fc-pink: #FFEBEB;
     --fc-brown: #A68272;
-    --fc-deep-blue: #00171F;
-    --fc-crisp-blue: #007EA7;
+    --fc-deep-grey: #1F272E;
+    --fc-light-green: #D4FF27;
     --fc-prussian: #003459;
     --fc-dark-color: #0C0F26;
-    --fc-grey: #5A5656;
+    --fc-grey: #4D545E;
     --fc-sky-blue: #00A8E8;
     --fc-dark-sky: #007EA7;
 }
@@ -93,8 +92,12 @@
     background-color: var(--fc-pink);
 }
 
-.fc-deep-blue {
-    color: var(--fc-deep-blue);
+.fc-deep-grey {
+    color: var(--fc-deep-grey);
+}
+
+.bg-deep-grey{
+    background-color: var(--fc-deep-grey);
 }
 
 .bg-red {
@@ -113,8 +116,12 @@
     background-color: var(--fc-pink);
 }
 
-.fc-crisp-blue {
-    color: var(--fc-crisp-blue);
+.fc-light-green {
+    color: var(--fc-light-green);
+}
+
+.bg-light-green {
+    background-color: var(--fc-light-green);
 }
 
 .fc-prussian {
@@ -212,14 +219,14 @@
 @media (max-width:768px) {
     :root {
         --fs-4xl: 34px;
-        --fs-2xl:44px;
-        --fs-lg:18px;
+        --fs-2xl: 44px;
+        --fs-lg: 18px;
     }
 }
 
 @media (max-width:575.99px) {
     :root {
         --lh-97: 57.5px;
-        --fs-lg:16px;
+        --fs-lg: 16px;
     }
 }
