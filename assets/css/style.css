@@ -123,7 +123,19 @@
     padding-top: 20px;
 }
 
+.part-2{
+    padding-left: 24px;
+}
 
+.valorant-buton{
+    padding: 4px 8px 4px;
+    border-radius: 48px;
+    margin-top: 34px;
+}
+
+.mt-12{
+    margin-top: 12px;
+}
 
 @media (max-width:992px) {
     .sec-3-img {
