@@ -20,7 +20,7 @@
     --fc-light-white: #545E6C;
     --fc-white: #FFFFFF;
     --fc-valorant: #6E7681;
-    --fc-red: #FF0000;
+    --fc-green-yellow: #1F2309;
     --fc-light-black: #151A1F;
     --fc-pink: #FFEBEB;
     --fc-brown: #A68272;
@@ -114,8 +114,8 @@
     background-color: var(--fc-red);
 }
 
-.fc-red {
-    color: var(--fc-red);
+.fc-green-yellow {
+    color: var(--fc-green-yellow);
 }
 
 .fc-pink {
