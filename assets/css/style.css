@@ -24,10 +24,16 @@
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
 }
 
-
-
 .lh-16 {
     line-height: 16px;
+}
+
+.lh-36 {
+    line-height: 36px;
+}
+
+.lh-24 {
+    line-height: 24px;
 }
 
 .buton-1 {
@@ -85,6 +91,10 @@
 
 .title {
     line-height: 86.4px;
+}
+
+.text {
+    letter-spacing: 20%;
 }
 
 .hero-sec-buton {
@@ -145,6 +155,8 @@
 .slick-dots {
     bottom: -45px !important;
 }
+
+.grind-img {}
 
 .full-screen {
     position: fixed;
@@ -270,7 +282,6 @@
 
 .stay-updated-sec {
     border-radius: 12px;
-    max-height: 160px;
     margin-top: 96px;
 }
 
@@ -303,12 +314,17 @@
     border: 1px solid var(--fc-light-black);
 }
 
-.pt-32 {
-    padding: 32px 0px 32px 0px;
-}
-
 .mt-56 {
     margin-top: 56px;
+}
+
+.mt-48 {
+    margin: 48px 0px 48px 0px;
+}
+
+.map-buton {
+    bottom: 32%;
+    left: 5%;
 }
 
 
@@ -329,12 +345,27 @@
         width: 90%;
     }
 
-    .map-img{
+    .map-img {
         width: 100%;
+    }
+
+    .input-parent{
+        margin: 60px 0px 20px 0px;
     }
 }
 
 @media (max-width:992px) {
+    .gap-2{
+        gap: 0 !important;
+    }
+    .footer-text {
+        padding-top: 42px;
+    }
+
+    .stay-updated-sec {
+        width: 90% !important;
+    }
+
     .nav-parent {
         display: flex;
         justify-content: space-between;
@@ -385,27 +416,45 @@
 }
 
 @media (max-width:767.99px) {
-.map-img{
-    width: 95%;
-}
+    .map-img {
+        width: 95%;
+    }
+
+    .input-box {
+        min-width: 0 !important;
+    }
 }
 
 @media (max-width:575.99px) {
-.text-box{
-    display: flex;
-    flex-direction: column;
-}
+    .text-box {
+        display: flex;
+        flex-direction: column;
+    }
 
-.card-parent{
-    display: flex;
-    flex-direction: column;
-}
+    .card-parent {
+        display: flex;
+        flex-direction: column;
+    }
 
-.short-box{
-    padding-top: 20px;
-}
+    .short-box {
+        padding-top: 20px;
+    }
 
-.input-box-2{
-min-width: 200px;
-}
+    .input-box-2 {
+        min-width: 200px;
+    }
+
+    .grind-video {
+        width: 95%;
+        margin: auto;
+    }
+
+    .border-line {
+        max-width: 150px;
+    }
+
+    .butons-parent {
+        display: flex;
+        flex-direction: column;
+    }
 }
