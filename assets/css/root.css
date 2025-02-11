@@ -18,7 +18,7 @@
 
     --fc-light-white: #545E6C;
     --fc-white: #FFFFFF;
-    --fc-valorant:#6E7681;
+    --fc-valorant: #6E7681;
     --fc-red: #FF0000;
     --fc-light-black: #151A1F;
     --fc-pink: #FFEBEB;
@@ -85,11 +85,11 @@
     background-color: var(--fc-slate-gray);
 }
 
-.fc-valorant{
+.fc-valorant {
     color: var(--fc-valorant);
 }
 
-.bg-valorant{
+.bg-valorant {
     background-color: var(--fc-valorant);
 }
 
@@ -105,7 +105,7 @@
     color: var(--fc-deep-grey);
 }
 
-.bg-deep-grey{
+.bg-deep-grey {
     background-color: var(--fc-deep-grey);
 }
 
@@ -229,21 +229,20 @@
 
 @media (max-width:991.99px) {
     :root {
-        --fs-3xl: 45px;
+        --fs-2xl: 76px;
+
     }
 }
 
 @media (max-width:768px) {
     :root {
-        --fs-4xl: 34px;
-        --fs-2xl: 44px;
-        --fs-lg: 18px;
+        --fs-2xl: 56px;
     }
 }
 
 @media (max-width:575.99px) {
     :root {
         --lh-97: 57.5px;
-        --fs-lg: 16px;
+        --fs-2xl: 36px
     }
 }
