@@ -2,6 +2,7 @@
     --fs-sm: 12px;
     --fs-md: 14px;
     --fs-lg: 16px;
+    --fs-large-lg: 24px;
     --fs-xl: 36px;
     --fs-2xl: 96px;
 
@@ -61,8 +62,8 @@
     font-size: var(--fs-2xl) !important;
 }
 
-.fs-3xl {
-    font-size: var(--fs-3xl);
+.fs-large-lg {
+    font-size: var(--fs-large-lg);
 }
 
 .fs-4xl {
