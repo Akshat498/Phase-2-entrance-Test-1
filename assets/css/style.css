@@ -225,7 +225,6 @@
 
 .part-2 {
     padding-left: 24px;
-    max-width: 660px;
 }
 
 .valorant-buton {
@@ -261,7 +260,6 @@
 
 .card-1 {
     padding-left: 24px;
-    min-width: 480px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
@@ -330,6 +328,10 @@
     .bottom-line {
         width: 90%;
     }
+
+    .map-img{
+        width: 100%;
+    }
 }
 
 @media (max-width:992px) {
@@ -380,4 +382,30 @@
     .buton-2 {
         margin-bottom: 30px;
     }
+}
+
+@media (max-width:767.99px) {
+.map-img{
+    width: 95%;
+}
+}
+
+@media (max-width:575.99px) {
+.text-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-parent{
+    display: flex;
+    flex-direction: column;
+}
+
+.short-box{
+    padding-top: 20px;
+}
+
+.input-box-2{
+min-width: 200px;
+}
 }
