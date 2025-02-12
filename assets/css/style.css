@@ -531,6 +531,9 @@
 }
 
 @media (max-width:575.99px) {
+    .buton-svg{
+        display: none;
+    }
     .cards-img {
         width: 95%;
     }
