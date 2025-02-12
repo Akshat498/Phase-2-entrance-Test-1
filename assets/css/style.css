@@ -564,3 +564,8 @@
         flex-direction: column;
     }
 }
+
+.bg-border{
+    top: 10%;
+    left: 0;
+}
