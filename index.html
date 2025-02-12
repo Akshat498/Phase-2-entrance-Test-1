@@ -21,15 +21,15 @@
 </head>
 
 <body class="bg-black">
-    <nav class=" d-flex align-items-center  nav-bar w-100 z-2 position-relative ">
+    <nav class=" d-flex align-items-center  nav-bar w-100 z-2 position-relative z-5">
         <div class="container nav-parent max-w-1392">
 
             <a href=""><img class="d-lg-none nav-logo" src="/assets/images/svg/nav-icon.svg" alt="nav-icon"></a>
 
             <label onclick="navbarbtn()" class="z-5 d-block d-lg-none">
-                <span class="menu-lines" id="rotats"></span>
-                <span class="menu-lines" id="transparent"></span>
-                <span class="menu-lines" id="rotats2"></span>
+                <span class="menu-lines bg-white" id="rotats"></span>
+                <span class="menu-lines bg-white" id="transparent"></span>
+                <span class="menu-lines bg-white" id="rotats2"></span>
             </label>
             <div id="nav-link" class="d-flex nav-link align-items-center ">
 
@@ -210,7 +210,6 @@
 
         <iframe class="d-flex mx-auto grind-video mt-48" width="560" height="315"
             src="https://www.youtube.com/embed/eKqY-oP1d_Y?si=S3R3chCs1XqNBk-L" title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -372,7 +371,8 @@
         </div>
     </section>
 
-    <section class="d-flex ">
+    <section class="d-flex position-relative">
+        <img class="position-absolute bg-shadow" src="/assets/images/svg/Gradient Light.svg" alt="">
         <div class="container max-w-1344 d-flex bg-light-green stay-updated-sec position-relative">
             <div class="row">
                 <div class="col-12 col-lg-3 ">
