@@ -21,22 +21,22 @@
 </head>
 
 <body class="bg-black">
-    <nav class=" d-flex align-items-center  nav-bar w-100 z-2 position-relative z-5">
+    <nav class=" d-flex align-items-center  nav-bar w-100 z-2 position-relative z-5 bg-light-black">
         <div class="container nav-parent max-w-1392">
 
             <a href=""><img class="d-lg-none nav-logo" src="/assets/images/svg/nav-icon.svg" alt="nav-icon"></a>
 
             <label onclick="navbarbtn()" class="z-5 d-block d-lg-none">
-                <span class="menu-lines bg-white" id="rotats"></span>
-                <span class="menu-lines bg-white" id="transparent"></span>
-                <span class="menu-lines bg-white" id="rotats2"></span>
+                <span class="menu-lines bg-white d-flex position-relative" id="rotats"></span>
+                <span class="menu-lines bg-white d-flex position-relative" id="transparent"></span>
+                <span class="menu-lines bg-white d-flex position-relative" id="rotats2"></span>
             </label>
             <div id="nav-link" class="d-flex nav-link align-items-center ">
 
                 <ul class="d-flex gap-4 nav-items  align-items-center list-unstyled mb-0">
                     <li><a href=""><img class="nav-icon" src="/assets/images/svg/nav-icon.svg" alt="nav-icon"></a></li>
 
-                    <li><a class="text-decoration-none poppins-font fw-normal fs-md lh-32 fc-white" href="#">
+                    <li><a class="list-unstyled  poppins-font fw-normal fs-md lh-32 fc-white" href="#">
                             <div class="dropdown">
                                 <img src="/assets/images/svg/controller.svg" alt="">
                                 <div class="dropdown-content bg-light-black mt-1">
@@ -50,11 +50,11 @@
                     <li><a class="text-decoration-none fw-bold fs-md fc-light-green normalidad-font lh-16"
                             href="#">GAMES</a>
                     </li>
-                    <li class="text-decoration-none fw-bold fs-md fc-grey normalidad-font lh-16 ">NEWS</li>
-
-                    <li><button
+                    <li class="text-decoration-none  list-unstyled text-disable"> <span class="fw-bold fs-md fc-grey normalidad-font lh-16">NEWS</span>
+                        <button
                             class="buton-1 fw-normal fs-sm bg-deep-grey border-0 fc-light-white normalidad-font lh-16">Coming
-                            Soon</button></li>
+                            Soon</button>
+                    </li>
                 </ul>
 
                 <ul class="d-flex gap-2 nav-items mb-0 p-0">
@@ -150,9 +150,9 @@
                 fighters and more</p>
 
             <div class=" meet-our-slider">
-                <div class="d-flex flex-column box bg-dark-color position-relative h-100">
+                <div class="d-flex flex-column box bg-dark-color position-relative h-100 w-100">
                     <img class="position-absolute top-0" src="/assets/images/svg/coming-soon.svg" alt="">
-                    <img class="p-3" src="/assets/images/png/valorant-img.png" alt="">
+                    <img class=" p-sm-3" src="/assets/images/png/valorant-img.png" alt="">
 
                     <div class="d-flex slide-img gap-3 align-items-center">
                         <img class="" src="/assets/images/svg/valorant-text.svg" alt="">
@@ -160,8 +160,8 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-column box bg-dark-color h-100">
-                    <img class="p-3" src="/assets/images/png/apex-legend.png" alt="">
+                <div class="d-flex flex-column box bg-dark-color h-100 w-100">
+                    <img class="p-sm-3" src="/assets/images/png/apex-legend.png" alt="">
 
                     <div class="d-flex slide-img gap-3 align-items-center">
                         <img class="" src="/assets/images/svg/apex-text.svg" alt="">
@@ -176,9 +176,9 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-column box bg-dark-color h-100">
+                <div class="d-flex flex-column box bg-dark-color h-100 w-100">
                     <img class="position-absolute top-0" src="/assets/images/svg/coming-soon.svg" alt="">
-                    <img class="p-3" src="/assets/images/png/fornite.png" alt="">
+                    <img class="p-sm-3" src="/assets/images/png/fornite.png" alt="">
 
                     <div class="d-flex slide-img gap-3 align-items-center">
                         <img class="" src="/assets/images/svg/fornite-text.svg" alt="">
@@ -186,9 +186,9 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-column box bg-dark-color h-100">
+                <div class="d-flex flex-column box bg-dark-color h-100 w-100">
                     <img class="position-absolute top-0" src="/assets/images/svg/coming-soon.svg" alt="">
-                    <img class="p-3" src="/assets/images/png/rocket-league.png" alt="">
+                    <img class="p-sm-3" src="/assets/images/png/rocket-league.png" alt="">
 
                     <div class="d-flex slide-img gap-3 align-items-center">
                         <img class="" src="/assets/images/svg/rocket-league-text.svg" alt="">
@@ -202,7 +202,7 @@
     </section>
 
     <section class="grind-bg-img">
-        <img class="d-flex mx-auto" src="/assets/images/svg/arrow.svg" alt="">
+        <img class="d-flex mx-auto pt-72" src="/assets/images/svg/arrow.svg" alt="">
 
         <h2 class="fw-bold fs-xl text-center fc-light-green normalidad-font lh-36">THE GRIND <br>
             <span class="fc-white normalidad-font">STARTS NOW</span>
@@ -213,7 +213,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        <button class="fw-medium fs-lg bg-light-green border-0 hero-sec-buton  mx-auto d-flex normalidad-font">compete
+        <button class="fw-medium  fs-lg bg-light-green border-0 hero-sec-buton  mx-auto d-flex normalidad-font">compete
             now</button>
     </section>
 
@@ -289,7 +289,7 @@
                     </button>
                 </div>
 
-                <div class="col-12 col-xl-6 position-relative">
+                <div class="col-12 col-xl-6 position-relative z-2">
                     <img class="mt-40 map-img" src="/assets/images/png/Image-Canva.png" alt="">
 
                     <img class="map-buton position-absolute" src="/assets/images/svg/valorant.svg" alt="">
@@ -314,7 +314,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-xl-6 gap-4 d-flex flex-column  max-w-660 ">
+                <div class="col-12 col-xl-6 gap-4 d-flex flex-column  max-w-660 z-1 ">
                     <div class="d-flex align-items-center mt-40 card-parent">
                         <img class="cards-img" src="/assets/images/png/Image-Canva-2.png" alt="">
 
@@ -372,21 +372,22 @@
     </section>
 
     <section class="d-flex position-relative">
-        <img class="position-absolute bg-shadow w-100" src="/assets/images/svg/Gradient Light.svg" alt="">
+        <img class="position-absolute bg-shadow  w-100" src="/assets/images/svg/Gradient-Light.svg" alt="">
         <div class="container max-w-1344 d-flex bg-light-green stay-updated-sec position-relative">
             <div class="row">
-                <div class="col-12 col-lg-3 ">
+                <div class="col-12 col-lg-3 z-1 ">
                     <img class="cards-img" src="/assets/images/png/Camada-01.png" alt="">
                 </div>
 
                 <div class="col-12 col-lg-9">
                     <div class="row">
-                        <div class="col-9 col-xl-6">
-                            <h2 class="normalidad-font fw-bold fs-xl text-black m-0 text-uppercase  sub-title">Stay
+                        <div class="col-9 col-xl-6 z-1">
+                            <h2 class="normalidad-font fw-bold fs-xl text-black m-0 text-uppercase  sub-title ">Stay
                                 updated
                             </h2>
 
-                            <p class="normalidad-font fw-normal fs-md fc-green-yellow receive-text m-0 update-text">Receive
+                            <p class="normalidad-font fw-normal fs-md fc-green-yellow receive-text m-0 update-text ">
+                                Receive
                                 all
                                 the news,
                                 updates, and exclusive
@@ -406,7 +407,7 @@
                     </div>
                 </div>
             </div>
-            <img src="./assets/images/svg/bg-border.svg" alt="" class="position-absolute bg-border w-100">
+            <img src="./assets/images/svg/bg-border.svg" alt="" class="position-absolute  bg-border w-100">
         </div>
     </section>
 
@@ -421,7 +422,7 @@
 
             <div class="row">
                 <div class=" col-12 col-lg-6">
-                    <p class="fw-normal normalidad-font fs-lg lh-16 fc-white pt-32">Stay Updated</p>
+                    <p class="fw-normal normalidad-font fs-lg lh-16 fc-white pt-32 ">Stay Updated</p>
 
                     <div class="d-flex align-items-center ">
                         <input class="bg-black fc-grey input-box-2 " type="text" placeholder="Your e-mail">

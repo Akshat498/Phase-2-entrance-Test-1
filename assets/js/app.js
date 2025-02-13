@@ -31,6 +31,15 @@ const navbarbtn = () => {
             }
         },
 
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+            }
+        },
+
 
     ]
 });
