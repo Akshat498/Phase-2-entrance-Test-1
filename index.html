@@ -21,7 +21,7 @@
 </head>
 
 <body class="bg-black">
-    <nav class=" d-flex align-items-center  nav-bar w-100 z-2 position-relative z-5 bg-light-black">
+    <nav class=" d-flex align-items-center  nav-bar w-100  position-relative z-5 bg-light-black">
         <div class="container nav-parent max-w-1392">
 
             <a href=""><img class="d-lg-none nav-logo" src="/assets/images/svg/nav-icon.svg" alt="nav-icon"></a>
@@ -37,20 +37,28 @@
                     <li><a href=""><img class="nav-icon" src="/assets/images/svg/nav-icon.svg" alt="nav-icon"></a></li>
 
                     <li><a class="list-unstyled  poppins-font fw-normal fs-md lh-32 fc-white" href="#">
-                            <div class="dropdown">
-                                <img src="/assets/images/svg/controller.svg" alt="">
-                                <div class="dropdown-content bg-light-black mt-1">
-                                    <p class=" fc-grey">GAMES</p>
-                                    <p class=" fc-grey">Coming Soon</p>
-                                    <p class=" fc-grey">Valorant</p>
-                                </div>
+                            <div class="btn-group">
+                                <button type="button"
+                                    class="btn btn-secondary dropdown-toggle bg-transparent p-0 border-0"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="/assets/images/svg/controller.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end   bg-light-black">
+                                    <li><button class="dropdown-item fc-light-white" type="button">GAMES</button></li>
+                                    <li><button class="dropdown-item fc-light-white" type="button">Coming Soon</button>
+                                    </li>
+                                    <li><button class="dropdown-item fc-light-white" type="button">Valorant</button>
+                                    </li>
+                                </ul>
                             </div>
                         </a>
                     </li>
                     <li><a class="text-decoration-none fw-bold fs-md fc-light-green normalidad-font lh-16"
                             href="#">GAMES</a>
                     </li>
-                    <li class="text-decoration-none  list-unstyled text-disable"> <span class="fw-bold fs-md fc-grey normalidad-font lh-16">NEWS</span>
+
+                    <li class="text-decoration-none  list-unstyled text-disable gap-2 d-flex align-items-center"> <span
+                            class="fw-bold fs-md fc-grey normalidad-font lh-16">NEWS</span>
                         <button
                             class="buton-1 fw-normal fs-sm bg-deep-grey border-0 fc-light-white normalidad-font lh-16">Coming
                             Soon</button>
@@ -91,13 +99,13 @@
                         </p>
 
                         <div class="d-flex  justify-content-center align-items-center mt-40">
-                            <img class=" buton-svg" src="/assets/images/svg/left.svg" alt="">
+                            <img class=" buton-svg pb-4 mr-24" src="/assets/images/svg/left.svg" alt="">
 
                             <button
-                                class="fw-medium fs-lg bg-light-green border-0 hero-sec-buton ml-24 normalidad-font lh-16">compete
+                                class="fw-medium fs-lg bg-light-green border-0 hero-sec-buton normalidad-font lh-16">compete
                                 now</button>
 
-                            <img class="ml-24 buton-svg" src="/assets/images/svg/right.svg" alt="">
+                            <img class="ml-24 buton-svg pb-4" src="/assets/images/svg/right.svg" alt="">
                         </div>
                     </div>
                 </header>
@@ -115,13 +123,13 @@
                         </p>
 
                         <div class="d-flex  justify-content-center align-items-center mt-40">
-                            <img class="buton-svg" src="/assets/images/svg/left.svg" alt="">
+                            <img class="buton-svg pb-4 mr-24" src="/assets/images/svg/left.svg" alt="">
 
                             <button
-                                class="fw-medium fs-lg bg-light-green border-0 hero-sec-buton ml-24 normalidad-font lh-16">compete
+                                class="fw-medium fs-lg bg-light-green border-0 hero-sec-buton  normalidad-font lh-16">compete
                                 now</button>
 
-                            <img class="ml-24 buton-svg" src="/assets/images/svg/right.svg" alt="">
+                            <img class="ml-24 buton-svg pb-4" src="/assets/images/svg/right.svg" alt="">
                         </div>
                     </div>
                 </header>
@@ -149,10 +157,10 @@
             <p class="fs-lg normalidad-font fw-normal fc-grey text-center mb-0">Tactical shooters, battle royales,
                 fighters and more</p>
 
-            <div class=" meet-our-slider">
+            <div class=" Game-select-slider">
                 <div class="d-flex flex-column box bg-dark-color position-relative h-100 w-100">
-                    <img class="position-absolute top-0" src="/assets/images/svg/coming-soon.svg" alt="">
-                    <img class=" p-sm-3" src="/assets/images/png/valorant-img.png" alt="">
+                    <img class="position-absolute top-0 z-1 coming-tag" src="/assets/images/svg/coming-soon.svg" alt="">
+                    <img class=" p-sm-3 slide-image " src="/assets/images/png/valorant-img.png" alt="">
 
                     <div class="d-flex slide-img gap-3 align-items-center">
                         <img class="" src="/assets/images/svg/valorant-text.svg" alt="">
@@ -161,7 +169,7 @@
                 </div>
 
                 <div class="d-flex flex-column box bg-dark-color h-100 w-100">
-                    <img class="p-sm-3" src="/assets/images/png/apex-legend.png" alt="">
+                    <img class="p-sm-3 slide-image " src="/assets/images/png/apex-legend.png" alt="">
 
                     <div class="d-flex slide-img gap-3 align-items-center">
                         <img class="" src="/assets/images/svg/apex-text.svg" alt="">
@@ -177,8 +185,8 @@
                 </div>
 
                 <div class="d-flex flex-column box bg-dark-color h-100 w-100">
-                    <img class="position-absolute top-0" src="/assets/images/svg/coming-soon.svg" alt="">
-                    <img class="p-sm-3" src="/assets/images/png/fornite.png" alt="">
+                    <img class="position-absolute top-0 z-1 coming-tag" src="/assets/images/svg/coming-soon.svg" alt="">
+                    <img class="p-sm-3 slide-image " src="/assets/images/png/fornite.png" alt="">
 
                     <div class="d-flex slide-img gap-3 align-items-center">
                         <img class="" src="/assets/images/svg/fornite-text.svg" alt="">
@@ -187,8 +195,8 @@
                 </div>
 
                 <div class="d-flex flex-column box bg-dark-color h-100 w-100">
-                    <img class="position-absolute top-0" src="/assets/images/svg/coming-soon.svg" alt="">
-                    <img class="p-sm-3" src="/assets/images/png/rocket-league.png" alt="">
+                    <img class="position-absolute top-0 z-1  coming-tag" src="/assets/images/svg/coming-soon.svg" alt="">
+                    <img class="p-sm-3 slide-image " src="/assets/images/png/rocket-league.png" alt="">
 
                     <div class="d-flex slide-img gap-3 align-items-center">
                         <img class="" src="/assets/images/svg/rocket-league-text.svg" alt="">
@@ -204,7 +212,7 @@
     <section class="grind-bg-img">
         <img class="d-flex mx-auto pt-72" src="/assets/images/svg/arrow.svg" alt="">
 
-        <h2 class="fw-bold fs-xl text-center fc-light-green normalidad-font lh-36">THE GRIND <br>
+        <h2 class="fw-bold fs-xl text-center fc-light-green normalidad-font lh-36 mb-30">THE GRIND <br>
             <span class="fc-white normalidad-font">STARTS NOW</span>
         </h2>
 
@@ -213,7 +221,8 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        <button class="fw-medium  fs-lg bg-light-green border-0 hero-sec-buton  mx-auto d-flex normalidad-font">compete
+        <button
+            class="fw-medium  fs-lg bg-light-green border-0 hero-sec-buton mt-50  mx-auto d-flex normalidad-font text-uppercase">compete
             now</button>
     </section>
 
@@ -255,7 +264,7 @@
                             trophies. This is where passion meets competition. This is esports redefined.</p>
 
                         <button
-                            class="fw-medium fs-lg bg-light-green border-0 hero-sec-buton mt-4 normalidad-font">compete
+                            class="fw-medium fs-lg bg-light-green border-0 hero-sec-buton mt-4 normalidad-font text-uppercase">compete
                             now</button>
                     </div>
                 </div>
@@ -269,7 +278,7 @@
 
     <section class="mt-96">
         <div class="container max-w-1344">
-            <div class="row gap-2">
+            <div class="row cards-box">
                 <div class="d-flex justify-content-between text-box">
                     <div>
                         <div class="d-flex align-items-center gap-2"><img src="/assets/images/svg/text-left-border.svg"
@@ -289,12 +298,12 @@
                     </button>
                 </div>
 
-                <div class="col-12 col-xl-6 position-relative z-2">
-                    <img class="mt-40 map-img" src="/assets/images/png/Image-Canva.png" alt="">
-
-                    <img class="map-buton position-absolute" src="/assets/images/svg/valorant.svg" alt="">
+                <div class="col-12 col-lg-6 position-relative z-1">
+                    <img class="mt-40 map-img " src="/assets/images/png/Image-Canva.png" alt="">
 
                     <div class="bg-dark-color part-2 ">
+                        <img class="map-buton" src="/assets/images/svg/valorant.svg" alt="">
+
                         <p class="fw-bold fs-lg fc-white pt mb-0 lh-16 pt-32 normalidad-font">Rumor: Destiny 2's Next
                             Returning Raid
                             Possibly <br>
@@ -307,16 +316,16 @@
                             the game's next returning raid could once again
                             come from the original Destiny.</p>
 
-                        <div class="d-flex align-items-center gap-2 mt-4 pb-4"><img src="/assets/images/svg/clock.svg"
-                                alt="">
+                        <div class="d-flex align-items-center gap-2  clock-svg pb-4"><img
+                                src="/assets/images/svg/clock.svg" alt="">
                             <p class="fw-normal fs-md mb-0 fc-light-green lh-16 normalidad-font">15 MAY 23</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-xl-6 gap-4 d-flex flex-column  max-w-660 z-1 ">
+                <div class="col-12 col-lg-6 gap-4 d-flex flex-column  max-w-660 z-1 ">
                     <div class="d-flex align-items-center mt-40 card-parent">
-                        <img class="cards-img" src="/assets/images/png/Image-Canva-2.png" alt="">
+                        <img class="cards-img mt-30" src="/assets/images/png/Image-Canva-2.png" alt="">
 
                         <div class="card-1 w-100 bg-dark-color ">
 
@@ -352,11 +361,9 @@
                         <img class="cards-img" src="/assets/images/png/Image-Canva-4.png" alt="">
 
                         <div class="card-1 w-100 bg-dark-color ">
-
                             <img class="mt-34" src="/assets/images/svg/valorant.svg" alt="">
 
-                            <p class="fw-bold fs-md fc-white pt-3 mb-0 rumor-text normalidad-font lh-16">Rumor: Destiny
-                                2's
+                            <p class="fw-bold fs-md fc-white pt-3 mb-0 rumor-text normalidad-font">Rumor: Destiny 2's
                                 Next Returning Raid <br> Possibly Revealed By Known Leaker</p>
 
                             <div class="d-flex align-items-center gap-2 mt-12 pb-4"><img
@@ -364,11 +371,10 @@
                                 <p class="fw-normal fs-md mb-0 fc-light-green normalidad-font">15 MAY 23</p>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <section class="d-flex position-relative">
@@ -376,7 +382,7 @@
         <div class="container max-w-1344 d-flex bg-light-green stay-updated-sec position-relative">
             <div class="row">
                 <div class="col-12 col-lg-3 z-1 ">
-                    <img class="cards-img" src="/assets/images/png/Camada-01.png" alt="">
+                    <img class="" src="/assets/images/png/Camada-01.png" alt="">
                 </div>
 
                 <div class="col-12 col-lg-9">
@@ -425,7 +431,8 @@
                     <p class="fw-normal normalidad-font fs-lg lh-16 fc-white pt-32 ">Stay Updated</p>
 
                     <div class="d-flex align-items-center ">
-                        <input class="bg-black fc-grey input-box-2 " type="text" placeholder="Your e-mail">
+                        <input class="bg-black fc-grey input-box-2 fs-md lh-16 fw-normal normalidad-font" type="text"
+                            placeholder="Your e-mail">
 
                         <a href=""><img class="ml-12" src="/assets/images/svg/light-green-right.svg" alt=""></a>
                     </div>
@@ -446,11 +453,11 @@
                             <p class="fc-white fw-normal fs-lg lh-16 m-0 pb-3">Legal</p>
                             <ul class="gap-12 d-flex flex-column m-0 p-0">
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0  normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0  normalidad-font li-text"
                                         href="">Terms of
                                         Use</a></li>
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0  normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0  normalidad-font li-text"
                                         href="">Privacy
                                         Policy</a></li>
                             </ul>
@@ -460,54 +467,54 @@
                             <p class="fc-white fw-normal fs-lg lh-16 pb-3 m-0 normalidad-font">Company</p>
                             <ul class="gap-12 d-flex flex-column p-0">
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font li-text"
                                         href="">About
                                         us</a></li>
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font li-text"
                                         href="">B2B
                                         Services</a></li>
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font li-text"
                                         href="">Contact</a></li>
                             </ul>
                         </div>
 
-                        <div class="col-6 col-md-2">
+                        <div class="col-6 col-md-3">
                             <p class="fc-white fw-normal fs-lg lh-16 pb-3 m-0 normalidad-font footer-text">Browse</p>
                             <ul class="gap-12 d-flex flex-column p-0">
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font li-text"
                                         href="">Compete</a></li>
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font li-text"
                                         href="">News</a>
                                 </li>
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font li-text"
                                         href="">Watch</a>
                                 </li>
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none m-0 normalidad-font li-text"
                                         href="">My
                                         Team</a></li>
                             </ul>
                         </div>
 
-                        <div class="col-6 col-md-4">
+                        <div class="col-6 col-md-3">
                             <p class="fc-white fw-normal fs-lg lh-16 normalidad-font footer-text">Tournament Games</p>
                             <ul class="gap-12 d-flex flex-column p-0">
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none normalidad-font li-text"
                                         href="">Valorant</a></li>
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none normalidad-font li-text"
                                         href="">Apex</a></li>
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none normalidad-font li-text"
                                         href="">Fortnite</a></li>
                                 <li class="list-unstyled"><a
-                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none normalidad-font"
+                                        class="fw-normal fs-md lh-16 fc-grey text-decoration-none normalidad-font li-text"
                                         href="">Rocket League</a></li>
                             </ul>
                         </div>
@@ -518,7 +525,9 @@
 
             <div class="line bg-deep-grey w-100"></div>
 
-            <p class="fw-normal fs-sm normalidad-font fc-grey mx-auto d-flex  justify-content-center pt-32">Verus is
+            <p
+                class="fw-normal fs-sm normalidad-font fc-grey mx-auto d-flex text-center  justify-content-center pt-32 pb-32 mb-0">
+                Verus is
                 neither endorsed nor
                 directly affiliated with Apple Inc, Electronic Arts, Activision Blizzard, Take-Two Interactive, Riot
                 Games, Microsoft, Xbox, or Epic Games. It does not <br> receive maintenance or sponsorship from these
